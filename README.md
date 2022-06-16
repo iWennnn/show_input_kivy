@@ -1,6 +1,7 @@
 # show_input_kivy
 A simple Input showing software for streamers
 
+
 This software allows you to show your inputs to people watching your stream without having to go through an OBS plugin.
 
 {
