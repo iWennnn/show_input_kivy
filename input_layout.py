@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#----------------------------------------------------------------------------
+# Created By  : Iwen Jomaa
+# version ='0.1'
+# Source available at : https://github.com/iWennnn/show_input_kivy
+# ---------------------------------------------------------------------------
+
+
 from kivy.core.window import Window
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
@@ -36,7 +45,8 @@ class ShowInput(App):
 
 
     def on_press(self, key):
-        key = str(key).replace("'", "").lower()
+        key = str(key).replace("'", "").replace("Key.", "").lower()
+        print(key)
 
         if key in keys.keys():
             if key not in self.current_pressed:
