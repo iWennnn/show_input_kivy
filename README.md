@@ -40,6 +40,6 @@ ctrl_l
 
 and obviously all the latin letters.
 
-You can directly use the source code or use the packaged .exe version provided.
+You can directly use the source code or use the packaged .exe version provided (with the config file in the same folder as the .exe).
 
 You can automatically leave by pressing Escape.
